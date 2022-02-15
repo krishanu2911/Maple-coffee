@@ -1,0 +1,96 @@
+main{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    grid-auto-flow: column;
+    grid-template-rows: 4.5rem auto auto auto auto 8rem;
+    grid-template-columns: 1fr;
+}
+.nav-modal{
+    display: none;
+}
+.coffee-categories{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ecom-footer{
+    background-color: var(--ecom-bg-dark);
+}
+.header-image{
+    border-radius: 2rem 2rem  0 0;
+}
+.coffee-display{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.often-ordered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coffee-vari{
+    background-color: var(--ecom-bg-dark);
+    border-radius: 2rem;
+    width: 15rem;
+    height: 8rem;
+}
+.coffee-section{
+    padding: 2rem 0;
+}
+.product-display{
+    padding: 3rem;
+    gap: 1rem;
+    background-color: var(--ecom-bg-light);
+}
+.card{
+    border-radius: 2rem;
+    background-color: var(--ecom-bg-light);
+}
+.small-nav{
+    display: flex;
+    padding: 1.5rem 0.5rem;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    background-color: var(--ecom-bg-light);
+    box-shadow: 0 3px 6px #00000029;
+}
+.banner{
+    margin: 2rem;
+    border-radius: 2rem;
+    padding:  3rem; 
+    display: flex;
+    background-color: var(--ecom-bg-light);
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.hero-img{
+    width: 25rem;
+}
+.footer-card > .icons:hover{
+    color: black;
+    background-color: var(--ecom-bg-dark);
+}
+@media only screen and (max-width: 800px) {
+    .coffee-categories{
+        justify-content: center;
+        gap: 2rem;
+    }
+    .banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-img{
+        width: 10rem;
+    }
+    .nav-modal{
+        display: block;
+    }
+    .coffee-vari{
+        height: 5rem;
+    }
+}
