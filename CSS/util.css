@@ -1,6 +1,8 @@
 :root{
     --ecom-bg-dark : #d6d3d1;
     --ecom-bg-light: rgb(238, 238, 238, 1);
+    --ecom-shadow: 0 3px 6px #00000029;
+    --ecom-btn-text-color: #111827;
 }
 .logo-txt{
     font-size: 1.2rem;
