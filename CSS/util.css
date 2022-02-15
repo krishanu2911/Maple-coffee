@@ -1,0 +1,35 @@
+:root{
+    --ecom-bg-dark : #d6d3d1;
+    --ecom-bg-light: rgb(238, 238, 238, 1);
+    --ecom-shadow: 0 3px 6px #00000029;
+    --ecom-btn-text-color: #111827;
+}
+.logo-txt{
+    font-size: 1.2rem;
+}
+.top-right{
+    top: -15px;
+}
+.nav-bar{
+    padding: 0 2.5rem;
+    background-color: white;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+.banner-text > .btn{
+    background-color: black;
+    color: white;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+@media only screen and (max-width: 800px) {
+    
+    .hide-responsive{
+        display: none;
+    }
+}
