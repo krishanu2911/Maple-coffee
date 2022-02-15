@@ -3,7 +3,7 @@ main{
     height: 100vh;
     overflow-y: scroll;
     grid-auto-flow: column;
-    grid-template-rows: 4.5rem auto auto auto auto 8rem;
+    grid-template-rows: 4.5rem repeat(4 , auto)  8rem;
     grid-template-columns: 1fr;
 }
 .nav-modal{
