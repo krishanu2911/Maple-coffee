@@ -17,9 +17,6 @@ main{
 .ecom-footer{
     background-color: var(--ecom-bg-dark);
 }
-.header-image{
-    border-radius: 2rem 2rem  0 0;
-}
 .coffee-display{
     display: flex;
     gap: 2rem;
@@ -47,7 +44,6 @@ main{
     background-color: var(--ecom-bg-light);
 }
 .card{
-    border-radius: 2rem;
     background-color: var(--ecom-bg-light);
 }
 .small-nav{
@@ -74,6 +70,12 @@ main{
 .footer-card > .icons:hover{
     color: var(--ecom-btn-text-color);
     background-color: var(--ecom-bg-dark);
+}
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+.card:hover{
+    box-shadow: var(--ecom-shadow);
 }
 @media only screen and (max-width: 800px) {
     .coffee-categories{
