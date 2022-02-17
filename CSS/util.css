@@ -69,6 +69,16 @@ button{
 .pd-hori-lg{
     padding: 2rem 3rem;
 }
+.auth-card{
+    width: fit-content;
+    background-color: var(--ecom-bg-dark);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: var(--ecom-shadow);
+}
+.icons{
+    background-color: var(--ecom-bg-light);
+}
 @media only screen and (max-width: 800px) {
     
     .hide-responsive{
