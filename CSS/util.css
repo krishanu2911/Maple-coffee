@@ -28,6 +28,15 @@ button{
     width: 0;
     background: transparent;
 }
+.nav-pd{
+    padding: 1.2rem 2.5rem;
+}
+.footer-pd{
+    padding: 3rem 0;
+}
+.height-section{
+    min-height: 50vh;
+}
 .ecom-width100{
     width: 100%;
 }
