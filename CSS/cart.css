@@ -1,0 +1,15 @@
+.cart-display{
+    width: 100%;
+    gap: 2rem;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+}
+.cart-card-footer{
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+.payment-article{
+    padding:1rem;
+    background-color: var(--ecom-bg-light);
+}

@@ -45,6 +45,18 @@ button{
     flex-direction: column;
     gap: 1rem;
 }
+.small-img{
+    width: 10rem;
+}
+.justify-center{
+    justify-content: center;
+}
+.large-img{
+    width: 20rem;
+}
+.justify-spacebtw{
+    justify-content: space-between;
+}
 .pd-hori-lg{
     padding: 2rem 3rem;
 }
